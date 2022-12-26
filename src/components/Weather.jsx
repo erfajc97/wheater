@@ -83,7 +83,7 @@ const Weather = () => {
         </div> 
 
 
-            <button onClick={changeToCelsius} >Change to{celsius? "C°" : "F°"} </button>
+            <button onClick={changeToCelsius} >Change  to {celsius? "C°" : "F°"} </button>
                 
         </div>
     );
