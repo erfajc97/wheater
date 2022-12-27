@@ -14,12 +14,10 @@ function App() {
   return (
     <div className="App">
 
-    <div className="containerLoading">
+    {/* <div className="containerLoading">
 
     <Loading/>
-    </div>
-
-    <br /><br />
+    </div> */}
 
     <div className="container">
 

@@ -30,6 +30,9 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url(https://media4.giphy.com/media/KwZoSJlvep6Vy/giphy.gif?cid=ecf05e47yhd0qh6v4vgqecmrdvr3evdv4dvfjw3w9wkudkfi&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 h1 {
@@ -67,4 +70,7 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+
+    
+  
 }

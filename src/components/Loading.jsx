@@ -11,12 +11,12 @@ const Loading = () => {
         <span></span>
         <span></span>
       </div>
-      <div className="loading">
+      {/* <div className="loading">
         <div>
           <h1>loading...</h1>
        
         </div>
-      </div>
+      </div> */}
 
     </div>
     );

@@ -96,7 +96,7 @@ h3{
 }
 
 
-body{
+/* body{
   min-height: 100vh;
   background-image: url(./assets/img/thunderstorm-3625405__480.jpg);
   background-repeat: no-repeat;
@@ -174,3 +174,32 @@ h1 >p{
   margin-left: 15rem;
 
 }
+ */
+
+@media screen and (max-width:500px) {
+  .container{
+
+    width: 300px;
+    padding: 1rem;
+  }
+
+    .general {
+      display: flex;
+      flex-direction: column;
+      margin-top: -3rem;
+    }
+
+    button{
+      margin-top: 2rem;
+
+    }
+    .temperature{
+      margin-bottom: -5.5rem;
+    }
+
+    img{
+      width: 80px;
+        height: 80px;
+        margin-bottom: 3rem;
+    }
+}  
