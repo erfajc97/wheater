@@ -37,7 +37,7 @@ const Weather = () => {
     return (
         <div>
 
-            <h1>Wheather App</h1>
+            <h1>Weather App</h1>
 
             <h2> {location.name} , {location.sys?.country} </h2>
 
