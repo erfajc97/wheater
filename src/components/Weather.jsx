@@ -45,12 +45,17 @@ const Weather = () => {
             
         <div className="temperature">
 
-            <h3> {celsius?  temperature : Math.round(((location.main?.temp)-273.15)) }  <p>{ celsius? "F°" : "C°" }</p></h3>
+            <div className="temp">
+
+            <h3> {celsius?  temperature : Math.round(((location.main?.temp)-273.15)) }  
+            </h3>
+            <p>{ celsius? "F°" : "C°" }</p>
+            </div>
 
            
         <div className="img">
 
-            <img src = {`http://openweathermap.org/img/wn/10d@2x.png`} alt="" />
+            <img src = {`http://openweathermap.org/img/wn/${location.weather?.[0].icon}@2x.png`} alt="" />
         </div>
             {/* {location.weather?.icon} */}
         </div>

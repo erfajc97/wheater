@@ -80,6 +80,7 @@ img{
   height: 150px;
   margin-bottom: 1rem;
 
+
 }
 
 h3{
@@ -176,6 +177,13 @@ h1 >p{
 }
  */
 
+ .temp{
+  display: flex;
+  gap: 1rem;
+  color: black;
+  height: 100px;
+ }
+
 @media screen and (max-width:500px) {
   .container{
 
@@ -195,11 +203,30 @@ h1 >p{
     }
     .temperature{
       margin-bottom: -5.5rem;
+      
     }
 
     img{
       width: 80px;
         height: 80px;
         margin-bottom: 3rem;
+        margin-top: -2rem;
     }
+    
+    h3{
+      font-size: 4rem;
+      height: 60px;
+    }
+
+
+    .temp {
+      display: flex;
+      margin-left: 37%;
+      height: 120px;
+         }
+
+    .temp p{
+      font-size: 4rem;
+    }
+
 }  
