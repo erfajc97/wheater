@@ -97,14 +97,14 @@ h3{
 }
 
 
-/* body{
+ body{
   min-height: 100vh;
   background-image: url(./assets/img/thunderstorm-3625405__480.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-}
+} 
 
 body, cubo, .loading{
   display: flex;
@@ -114,7 +114,7 @@ body, cubo, .loading{
 }
 
 .containerCubo{
-  width: 20%;
+  width: 100%;
   height: 300px;
 
 }
@@ -153,6 +153,8 @@ body, cubo, .loading{
 
 .loading{
   height: 40%;
+  font-size: 30px;
+  color: black;
 }
 
 @keyframes rotar{
@@ -175,7 +177,7 @@ h1 >p{
   margin-left: 15rem;
 
 }
- */
+ 
 
  .temp{
   display: flex;
